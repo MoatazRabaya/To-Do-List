@@ -1,0 +1,114 @@
+.lined-text {
+    text-decoration: line-through;
+}
+
+/* Global settings */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #202124 0%, #383e48 100%);
+    color: #ffffff;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Form styling */
+.form {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    border-radius: 30px 0 0 30px;
+    border: 2px solid #ff9800;
+    background: #383e48;
+    color: #fff;
+    transition: border 0.3s ease;
+}
+
+
+input[type="submit"] {
+    background-color: #ff9800;
+    color: #202124;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+
+
+/* List styling */
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 480px;
+}
+
+.list li {
+    background: #2c3038;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.list li:hover {
+    transform: translateY(-2px);
+    background: #32363e;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px;
+    cursor: pointer;
+    accent-color: #ff9800;
+}
+
+/* Text styling */
+.list span {
+    flex-grow: 1;
+    color: #ffffff;
+}
+
+.lined-text {
+    text-decoration: line-through;
+    color: #777;
+}
+
+/* Button styling */
+button {
+    background-color: #202124;
+    color: #ff9800;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #383e48;
+}
+
+
+
